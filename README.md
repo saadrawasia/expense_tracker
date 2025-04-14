@@ -1,16 +1,57 @@
-# expense_tracker
+# Expense Tracker
 
-A new Flutter project.
+A Flutter-based expense tracker application that allows users to manage their expenses efficiently. This project is part of the **"A Complete Guide to the Flutter SDK & Flutter Framework for building native iOS and Android apps"** course on Udemy.
+
+## Features
+
+- Add, view, and delete expenses.
+- Categorize expenses into predefined categories (e.g., Food, Travel, Leisure, Work).
+- View expenses in a chart for better visualization.
+- Undo expense deletion using a Snackbar.
+
+## Project Structure
+
+The project is organized as follows:
+
+```
+lib/
+├── models/
+│   └── expense.dart           # Expense model and related logic
+├── widgets/
+│   ├── chart/                 # Chart widget for expense visualization
+│   ├── expenses_list/         # List widget for displaying expenses
+│   ├── new_expense.dart       # Widget for adding new expenses
+│   └── expenses.dart          # Main widget for managing expenses
+```
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Install [Flutter](https://flutter.dev/docs/get-started/install) on your system.
+- Ensure you have an IDE like [Visual Studio Code](https://code.visualstudio.com/) or [Android Studio](https://developer.android.com/studio).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo/expense_tracker.git
+   cd expense_tracker
+   ```
+2. Install dependencies:
+   ```sh
+    flutter pub get
+   ```
+3. Run the app:
+   ```sh
+    flutter run
+   ```
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Resources
+
+- [Flutter](https://flutter.dev)
+- [Udemy Course](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps)
